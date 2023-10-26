@@ -1,0 +1,40 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+}
+.create-tran-selected{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding:2%;
+  height: 80%;
+}
+
+.input-screen{
+  border: 1px solid black;
+  width: 58%;
+  height: 100%;
+
+}
+
+.partial-tran-sceen{
+  border: 1px solid black;
+  width: 32%;
+  height: 100%;
+}
+
+.input-screen{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5%;
+}
+.tran-amount{
+  font-size: 2rem;
+}
+.select-tran-type{
+  border: 1px solid black;
+}
+.select-tran-type p{
+  font-size: 2rem;
+}

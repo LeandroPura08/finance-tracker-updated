@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/index.css">
+  <link rel="stylesheet" href="/styles/create-tran.css">
+  <title>Finance Tracker</title>
+</head>
+<body>
+  <section>
+    <div class="container">
+      <div class="header">
+        <div class="show-tran">
+          Show Transaction
+        </div>
+        <div class="show-pauts">
+          Show Pautang
+        </div>
+        <div class="create-tran">
+          Create Transaction
+        </div>
+        <div class="current">
+          1000
+        </div>
+      </div>
+      <div class="main create-tran-selected">
+        <div class="input-screen">
+          <div class="select-tran-type">
+            <p>Select Transaction Type <span>&#751</span> </p>
+            <ul>
+              <li>Pautang</li>
+              <li>Deposit</li>
+              <li>Withraw</li>
+            </ul>
+          </div>
+          <div class="input-amount">
+            <input class="tran-amount" type="number" id="tran-amount" required="required">
+            <span>Input Transaction Amount</span>
+          </div>
+          <div class="input-desc">
+            <input class="tran-desc" type="text" name="" id="tran-desc" required="required">
+            <span>Input Description</span>
+          </div>
+          <div class="buttons">
+            <button>submit</button>
+            <button>clear</button>
+          </div>
+        </div>
+
+        <div class="partial-tran-sceen">
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="/scripts/index.js"></script>
+  
+</body>
+</html>
